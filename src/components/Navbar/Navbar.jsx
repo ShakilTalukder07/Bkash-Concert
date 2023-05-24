@@ -30,10 +30,8 @@ const Navbar = () => {
                 <ul className={` md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white  text-black md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
 
                     <Link to="/"> <li className='md:ml-8 text-xl md:my-0 my-7'>HOME</li> </Link>
-                    <Link to="/about"> <li className='md:ml-8 text-xl md:my-0 my-7'>ABOUT</li> </Link>
-                    <Link to="/services"> <li className='md:ml-8 text-xl md:my-0 my-7'>SERVICES</li> </Link>
-                    <Link to="/portfolio"> <li className='md:ml-8 text-xl md:my-0 my-7'>PORTFOLIO</li> </Link>
-                    <Link to="/contact"> <li className='md:ml-8 text-xl md:my-0 my-7'>CONTACT</li> </Link>
+                    <Link to="/signUp"> <li className='md:ml-8 text-xl md:my-0 my-7'>SignUp</li> </Link>
+                    <Link to="/SignIn"> <li className='md:ml-8 text-xl md:my-0 my-7'>SignIn</li> </Link>
 
                 </ul>
             </div>
