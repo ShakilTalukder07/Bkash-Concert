@@ -19,7 +19,7 @@ const Navbar = () => {
                     <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
                 </div>
 
-                <ul className={` md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
+                <ul className={` md:flex md:items-center md:pb-0 pb-12 absolute md:static left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
 
                     <Link to="/"> <li className='md:ml-8 text-md md:my-0 my-7 text-black '>HOME</li> </Link>
                     <Link to="/signUp"> <li className='md:ml-8 text-md md:my-0 my-7 text-black '>SIGN UP</li> </Link>

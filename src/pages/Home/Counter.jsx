@@ -38,7 +38,7 @@ const Counter = () => {
         }
     });
 
-    
+
     const bg = {
         backgroundPosition: 'right',
         backgroundRepeat: 'no-repeat',
@@ -48,35 +48,35 @@ const Counter = () => {
 
     return (
         <>
-            <div className='absolute w-9/12 top-[60%] transform -translate-y-1/2 -translate-x-1/2 left-[50%] md:left-[50%] text-black '>
+            <div className='absolute w-9/12 top-[60%] md:top-[65%] lg:top-[65%] transform -translate-y-1/2 -translate-x-1/2 left-[50%] md:left-[50%] text-black '>
 
-            <div className='flex justify-center items-center w-full '>
-                        <div style={bg} className='relative w-full rounded-xl md:w-9/12 mx-2'>
-                            <div className='border-gray-500 z-[999]  bg-blue-200 py-3 px-6 rounded-xl border-4 mx-auto grid justify-center  grid-cols-7 w-full  md:w-7/12 '>
-                                <div >
-                                    <p className='text-4xl md:text-6xl font-bold'>{days}</p>
-                                    <p className='text-2xl font-bold'><small>Days</small></p>
-                                </div>
-                                <span className=' text-3xl md:text-5xl'>:</span>
-                                <div >
-                                    <p className='text-4xl md:text-6xl font-bold'>{hours}</p>
-                                    <p className='text-2xl font-bold'><small>Hours</small></p>
-                                </div>
-                                <span className='text-5xl'>:</span>
-                                <div >
-                                    <p className='text-4xl md:text-6xl font-bold'>{minutes}</p>
-                                    <p className='text-2xl font-bold'><small>Minutes</small></p>
-                                </div>
-                                <span className='text-5xl'>:</span>
-                                <div >
-                                    <p className='text-4xl md:text-6xl font-bold'>{seconds}</p>
-                                    <p className='text-2xl font-bold'><small>Second</small></p>
-                                </div>
-
+                <div className='flex justify-center items-center w-full '>
+                    <div style={bg} className='relative w-full rounded-xl md:w-9/12 mx-2'>
+                        <div className='border-gray-500 z-[999]  bg-blue-200 py-3 pl-4 pr-8 rounded-xl border-4 mx-auto grid justify-center  grid-cols-7 w-full  md:w-7/12 '>
+                            <div>
+                                <p className='text-4xl md:text-6xl font-bold'>{days}</p>
+                                <p className='text-2xl font-bold'><small>Days</small></p>
                             </div>
-                        </div>
+                            <span className=' text-3xl md:text-5xl'>:</span>
+                            <div >
+                                <p className='text-4xl md:text-6xl font-bold'>{hours}</p>
+                                <p className='text-2xl font-bold'><small>Hours</small></p>
+                            </div>
+                            <span className='text-5xl'>:</span>
+                            <div >
+                                <p className='text-4xl md:text-6xl font-bold'>{minutes}</p>
+                                <p className='text-2xl font-bold'><small>Minutes</small></p>
+                            </div>
+                            <span className='text-5xl'>:</span>
+                            <div >
+                                <p className='text-4xl md:text-6xl font-bold'>{seconds}</p>
+                                <p className='text-2xl font-bold'><small>Seconds</small></p>
+                            </div>
 
+                        </div>
                     </div>
+
+                </div>
 
             </div>
 
